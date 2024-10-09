@@ -6,7 +6,6 @@ from src.assertions import assertions
 URL = "https://restful-booker.herokuapp.com/booking"
 
 
-
 def test_get_token():
     response = requests.get(URL)
     assertions.assert_status_code(response, HTTPStatus.OK)
