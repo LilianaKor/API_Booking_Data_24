@@ -17,7 +17,8 @@ def test_update_booking(get_token, create_booking):
     lastname = response.json()["lastname"]
     assertions.assert_last_first_name([firstname, lastname], ["James", "Brown"])
 
-#
+
+
 # def test_update_booking1():
 #     data = {
 #         "firstname" : "David",
