@@ -9,6 +9,7 @@ from functions import generate_checkin_checkout_dates
 
 generator = BookingGenerator()
 
+
 URL = "https://restful-booker.herokuapp.com/booking"
 
 module = CreateBookingModule()
